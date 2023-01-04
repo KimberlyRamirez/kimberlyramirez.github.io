@@ -2035,7 +2035,7 @@ input[type="reset"].icon:before,
 input[type="button"].icon:before,
 button.icon:before,
 .button.icon:before {
-  font-size: 0.9rem;
+  font-size: 0.6rem;
   margin-right: 0.75rem;
 }
 
@@ -2530,6 +2530,7 @@ input[type="radio"]:focus + label:before {
 /* Icon */
 
 .icon {
+  display: block;
   text-decoration: none;
   position: relative;
   border-bottom: none;
@@ -2908,6 +2909,8 @@ ul.actions {
   list-style: none;
   margin-left: -1rem;
   padding-left: 0;
+  align-items: center;
+  justify-content: center;
 }
 
 ul.actions li {
@@ -4805,12 +4808,4 @@ body {
 
 .headshot {
   width: 35%;
-}
-
-.introp {
-  display: block;
-  background-color: rgba(242, 185, 185, 0.364);
-  border-radius: 15px;
-  width: 50%;
-  margin: auto;
 }
