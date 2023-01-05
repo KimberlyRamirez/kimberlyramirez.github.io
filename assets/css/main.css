@@ -1968,6 +1968,7 @@ hr {
   border-radius: 0.325rem;
   margin-bottom: 2rem;
   padding: 1.5rem;
+  box-shadow: rgba(241, 186, 186, 0.41) 0px 2px 8px 0px;
 }
 
 .box > :last-child,
@@ -3356,10 +3357,10 @@ table.alt tbody tr td {
     -ms-filter 0.875s ease-out;
   transition: opacity 0.875s ease-out, transform 0.875s ease-out,
     filter 0.875s ease-out;
-  -moz-transition-delay: 0.5s;
-  -webkit-transition-delay: 0.5s;
-  -ms-transition-delay: 0.5s;
-  transition-delay: 0.5s;
+  -moz-transition-delay: 1s;
+  -webkit-transition-delay: 1s;
+  -ms-transition-delay: 1s;
+  transition-delay: 1s;
 }
 
 body.is-preload .banner .image:before {
@@ -4808,11 +4809,26 @@ body {
   width: 35%;
 }
 
-.nexus_info {
-  width: 100;
-  height: auto;
-}
-
 .softwareTitle {
   padding-bottom: 40px;
+}
+
+.nexus_blurb {
+  display: block;
+  margin: auto;
+}
+
+.nexus {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.nexusArch {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
 }
