@@ -2821,13 +2821,6 @@ a.icon.alt:active:before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../../images/nexus_info.png),
-    linear-gradient(
-      to right,
-      rgba(164, 128, 255, 0.25),
-      rgba(255, 143, 131, 0.25)
-    );
-  background-repeat: no-repeat, no-repeat, no-repeat;
 }
 
 a.image {
