@@ -258,28 +258,28 @@ textarea {
 }
 
 a {
-  -moz-transition: color 0s ease-in-out, border-color 0s ease-in-out,
-    box-shadow 0s ease-in-out;
-  -webkit-transition: color 0s ease-in-out, border-color 0s ease-in-out,
-    box-shadow 0s ease-in-out;
-  -ms-transition: color 0s ease-in-out, border-color 0s ease-in-out,
-    box-shadow 0s ease-in-out;
-  transition: color 0s ease-in-out, border-color 0s ease-in-out,
-    box-shadow 0s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out;
   border-bottom: dotted 1px;
   text-decoration: none;
 }
 
 a:before,
 a strong {
-  -moz-transition: color 0.1s ease-in-out, border-color 0.1s ease-in-out,
-    box-shadow 0s ease-in-out;
-  -webkit-transition: color 0s ease-in-out, border-color 0s ease-in-out,
-    box-shadow 0s ease-in-out;
-  -ms-transition: color 0s ease-in-out, border-color 0s ease-in-out,
-    box-shadow 0s ease-in-out;
-  transition: color 0s ease-in-out, border-color 0s ease-in-out,
-    box-shadow 0s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out;
 }
 
 a:hover {
@@ -335,7 +335,7 @@ h1 {
 
 h2 {
   font-size: 2.5rem;
-  line-height: 0.85;
+  line-height: 1.35;
   margin: 0 0 2rem 0;
 }
 
@@ -1997,14 +1997,14 @@ button,
   -webkit-appearance: none;
   -ms-appearance: none;
   appearance: none;
-  -moz-transition: background-color 0s ease-in-out, box-shadow 0s ease-in-out,
-    color 0s ease-in-out;
-  -webkit-transition: background-color 0s ease-in-out, box-shadow 0s ease-in-out,
-    color 0s ease-in-out;
-  -ms-transition: background-color 0s ease-in-out, box-shadow 0s ease-in-out,
-    color 0s ease-in-out;
-  transition: background-color 0s ease-in-out, box-shadow 0s ease-in-out,
-    color 0s ease-in-out;
+  -moz-transition: background-color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out,
+    color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out,
+    color 0.2s ease-in-out;
   background-color: transparent;
   border-radius: 3rem;
   border: 0;
@@ -2024,10 +2024,10 @@ input[type="reset"]:before,
 input[type="button"]:before,
 button:before,
 .button:before {
-  -moz-transition: color 0s ease-in-out;
-  -webkit-transition: color 0s ease-in-out;
-  -ms-transition: color 0s ease-in-out;
-  transition: color 0s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
 }
 
 input[type="submit"].icon:before,
@@ -2562,14 +2562,14 @@ input[type="radio"]:focus + label:before {
 }
 
 .icon.alt:before {
-  -moz-transition: color 0s ease-in-out, background-color 0s ease-in-out,
-    box-shadow 0s ease-in-out;
-  -webkit-transition: color 0s ease-in-out, background-color 0s ease-in-out,
-    box-shadow 0s ease-in-out;
-  -ms-transition: color 0s ease-in-out, background-color 0s ease-in-out,
-    box-shadow 0s ease-in-out;
-  transition: color 0s ease-in-out, background-color 0s ease-in-out,
-    box-shadow 0s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out;
   display: inline-block;
   width: 3.5rem;
   height: 3.5rem;
@@ -2589,7 +2589,7 @@ input[type="radio"]:focus + label:before {
   height: 4rem;
   line-height: 4rem;
   border-radius: 4rem;
-  font-size: 0.825rem;
+  font-size: 1.325rem;
 }
 
 @media screen and (max-width: 736px) {
@@ -2828,10 +2828,10 @@ a.image {
 }
 
 a.image img {
-  -moz-transition: -moz-transform 0s ease;
-  -webkit-transition: -webkit-transform 0s ease;
-  -ms-transition: -ms-transform 0s ease;
-  transition: transform 0s ease;
+  -moz-transition: -moz-transform 0.2s ease;
+  -webkit-transition: -webkit-transform 0.2s ease;
+  -ms-transition: -ms-transform 0.2s ease;
+  transition: transform 0.2s ease;
 }
 
 a.image:hover img {
@@ -2938,7 +2938,7 @@ ul.actions.stacked {
 }
 
 ul.actions.stacked li {
-  padding: 0.8rem 0 0 0;
+  padding: 1.3rem 0 0 0;
 }
 
 ul.actions.stacked li:first-child {
@@ -3303,10 +3303,10 @@ table.alt tbody tr td {
 }
 
 .banner .image:before {
-  -moz-transition: opacity 0.8125s ease-in-out;
-  -webkit-transition: opacity 0.8125s ease-in-out;
-  -ms-transition: opacity 0.8125s ease-in-out;
-  transition: opacity 0.8125s ease-in-out;
+  -moz-transition: opacity 1.3125s ease-in-out;
+  -webkit-transition: opacity 1.3125s ease-in-out;
+  -ms-transition: opacity 1.3125s ease-in-out;
+  transition: opacity 1.3125s ease-in-out;
   content: "";
   display: block;
   position: absolute;
@@ -3321,10 +3321,10 @@ table.alt tbody tr td {
 }
 
 .banner .image:after {
-  -moz-transition: opacity 0.8125s ease-in-out;
-  -webkit-transition: opacity 0.8125s ease-in-out;
-  -ms-transition: opacity 0.8125s ease-in-out;
-  transition: opacity 0.8125s ease-in-out;
+  -moz-transition: opacity 1.3125s ease-in-out;
+  -webkit-transition: opacity 1.3125s ease-in-out;
+  -ms-transition: opacity 1.3125s ease-in-out;
+  transition: opacity 1.3125s ease-in-out;
   content: "";
   display: block;
   position: absolute;
@@ -3339,11 +3339,11 @@ table.alt tbody tr td {
 }
 
 .banner .image img {
-  -moz-transition: -moz-transform 0.1s ease-out, -moz-filter 0.1s ease-out;
-  -webkit-transition: -webkit-transform 0.1s ease-out,
-    -webkit-filter 0.1s ease-out;
-  -ms-transition: -ms-transform 0.1s ease-out, -ms-filter 0.1s ease-out;
-  transition: transform 0.1s ease-out, filter 0.1s ease-out;
+  -moz-transition: -moz-transform 2.1875s ease-out, -moz-filter 2.1875s ease-out;
+  -webkit-transition: -webkit-transform 2.1875s ease-out,
+    -webkit-filter 2.1875s ease-out;
+  -ms-transition: -ms-transform 2.1875s ease-out, -ms-filter 2.1875s ease-out;
+  transition: transform 2.1875s ease-out, filter 2.1875s ease-out;
 }
 
 .banner h1,
@@ -3356,10 +3356,10 @@ table.alt tbody tr td {
     -ms-filter 0.875s ease-out;
   transition: opacity 0.875s ease-out, transform 0.875s ease-out,
     filter 0.875s ease-out;
-  -moz-transition-delay: 0.6s;
-  -webkit-transition-delay: 0.6s;
-  -ms-transition-delay: 0.6s;
-  transition-delay: 0.6s;
+  -moz-transition-delay: 0.5s;
+  -webkit-transition-delay: 0.5s;
+  -ms-transition-delay: 0.5s;
+  transition-delay: 0.5s;
 }
 
 body.is-preload .banner .image:before {
@@ -4496,14 +4496,14 @@ body {
 }
 
 #header > .navPanelToggle {
-  -moz-transition: background-color 0s ease-in-out, color 0s ease-in-out,
-    top 0s ease-in-out, right 0s ease-in-out;
-  -webkit-transition: background-color 0s ease-in-out, color 0s ease-in-out,
-    top 0s ease-in-out, right 0s ease-in-out;
-  -ms-transition: background-color 0s ease-in-out, color 0s ease-in-out,
-    top 0s ease-in-out, right 0s ease-in-out;
-  transition: background-color 0s ease-in-out, color 0s ease-in-out,
-    top 0s ease-in-out, right 0s ease-in-out;
+  -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    top 0.2s ease-in-out, right 0.2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    top 0.2s ease-in-out, right 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    top 0.2s ease-in-out, right 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    top 0.2s ease-in-out, right 0.2s ease-in-out;
   text-decoration: none;
   display: none;
   position: absolute;
@@ -4680,10 +4680,10 @@ body {
 }
 
 #navPanel .link {
-  -moz-transition: color 0s;
-  -webkit-transition: color 0s;
-  -ms-transition: color 0s;
-  transition: color 0s;
+  -moz-transition: color 0.2s;
+  -webkit-transition: color 0.2s;
+  -ms-transition: color 0.2s;
+  transition: color 0.2s;
   display: block;
   border-top: solid 1px #dde1eb;
   color: inherit !important;
@@ -4719,10 +4719,10 @@ body {
 
 #navPanel .close {
   text-decoration: none;
-  -moz-transition: color 0s ease-in-out;
-  -webkit-transition: color 0s ease-in-out;
-  -ms-transition: color 0s ease-in-out;
-  transition: color 0s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   display: block;
   position: absolute;
