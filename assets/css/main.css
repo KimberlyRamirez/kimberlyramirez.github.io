@@ -4381,7 +4381,7 @@ body {
   font-weight: 900;
 }
 
-/* #header > nav {
+#header > nav {
   position: absolute;
   top: 0;
   right: 2rem;
@@ -4438,7 +4438,7 @@ body {
 
 #header > nav > ul > li.active > a {
   color: #e59dc4;
-} */
+}
 
 .dropotron {
   background-color: #ffffff;
@@ -4497,7 +4497,7 @@ body {
   color: #e59dc4;
 }
 
-/* #header > .navPanelToggle {
+#header > .navPanelToggle {
   -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
     top 0.2s ease-in-out, right 0.2s ease-in-out;
   -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
@@ -4515,7 +4515,8 @@ body {
   line-height: inherit;
   padding: 0 2rem;
   text-transform: uppercase;
-} */
+}
+*/
 
 /* #header > .navPanelToggle:before {
   -moz-osx-font-smoothing: grayscale;
@@ -4535,7 +4536,7 @@ body {
   line-height: inherit;
   margin: 0 0 0 0.625rem;
   float: right;
-} */
+}
 
 @media screen and (max-width: 980px) {
   #header > nav {
@@ -4836,4 +4837,9 @@ body {
 
 .languages {
   color: #6a42cf;
+}
+
+.aboutMeBlurb {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgba(72, 71, 71, 0.75);
 }
