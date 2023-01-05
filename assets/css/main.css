@@ -104,7 +104,7 @@ figure,
 footer,
 header,
 hgroup,
-menu,
+/* menu, */
 nav,
 section {
   display: block;
@@ -4381,7 +4381,7 @@ body {
   font-weight: 900;
 }
 
-#header > nav {
+/* #header > nav {
   position: absolute;
   top: 0;
   right: 2rem;
@@ -4438,7 +4438,7 @@ body {
 
 #header > nav > ul > li.active > a {
   color: #e59dc4;
-}
+} */
 
 .dropotron {
   background-color: #ffffff;
@@ -4497,7 +4497,7 @@ body {
   color: #e59dc4;
 }
 
-#header > .navPanelToggle {
+/* #header > .navPanelToggle {
   -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
     top 0.2s ease-in-out, right 0.2s ease-in-out;
   -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
@@ -4515,9 +4515,9 @@ body {
   line-height: inherit;
   padding: 0 2rem;
   text-transform: uppercase;
-}
+} */
 
-#header > .navPanelToggle:before {
+/* #header > .navPanelToggle:before {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   display: inline-block;
@@ -4528,14 +4528,14 @@ body {
   text-transform: none !important;
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-}
+} */
 
-#header > .navPanelToggle:before {
+/* #header > .navPanelToggle:before {
   content: "\f0c9";
   line-height: inherit;
   margin: 0 0 0 0.625rem;
   float: right;
-}
+} */
 
 @media screen and (max-width: 980px) {
   #header > nav {
