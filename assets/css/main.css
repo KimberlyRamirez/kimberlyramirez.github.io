@@ -2907,6 +2907,7 @@ ul.actions {
   cursor: default;
   list-style: none;
   margin-left: -1rem;
+  margin-top: 30px;
   padding-left: 0;
   align-items: center;
   justify-content: center;
